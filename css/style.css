@@ -1,0 +1,36 @@
+@import url(colors.css);
+@import url(text.css);
+
+* {
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: "Inter Tight", sans-serif;
+}
+
+body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.titulo {
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 100px;
+    margin-top: 3vw;
+    margin-bottom: 0vw;
+}
+
+.subtitulo{
+    margin-top: 0.2vw;
+    margin-bottom: 3vw;
+}
+
+li {
+    list-style-type: none;
+}
+
+.lista-coluna {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

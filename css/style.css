@@ -34,3 +34,25 @@ li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.imagem-index {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.crop-index-daftpunk {
+    margin-left: -230px;
+}
+
+.crop-index-porter {
+    width: 720px;
+    height: auto;
+    margin-top: -80px;
+    margin-left: -150px;
+}
+
+.crop-index-femtanyl {
+    width: 310px;
+    height: auto;
+}

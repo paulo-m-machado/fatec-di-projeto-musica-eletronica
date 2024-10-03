@@ -35,7 +35,7 @@ li {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.imagem-index {
+.container-imagem-index {
     width: 300px;
     height: 300px;
     overflow: hidden;

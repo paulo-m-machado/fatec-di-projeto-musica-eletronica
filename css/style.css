@@ -3,15 +3,45 @@
 
 * {
     text-align: center;
-    background-color: var(--background-color);
-    color: var(--text-color);
     font-family: "Inter Tight", sans-serif;
 }
 
 body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+.conteudo {
     margin-left: 10vw;
     margin-right: 10vw;
 }
+
+header {
+    background-color: var(--primary-color);
+    margin: 0;
+    font-size: 24px;
+    padding: 1vw;
+}
+
+header nav ul {
+    margin: 0;
+}
+
+header ul {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: var(--text-color);
+}
+
+
 
 .titulo {
     color: var(--primary-color);
@@ -39,6 +69,7 @@ li {
     width: 300px;
     height: 300px;
     overflow: hidden;
+    margin: auto;
 }
 
 .crop-index-daftpunk {

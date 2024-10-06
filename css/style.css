@@ -140,9 +140,15 @@ li {
     color: var(--primary-color);
 }
 
-.lista-discografia {
+.lista-discografia-DP {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 5vw;
+}
+
+.lista-discografia-porter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 5vw;
 }
 

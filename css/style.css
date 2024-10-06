@@ -127,3 +127,27 @@ li {
 .fonte a{
     color: var(--primary-color);
 }
+
+.lista-discografia {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5vw;
+}
+
+.item-discografia {
+    margin-bottom: 3vw;
+}
+
+.titulo-album {
+    font-size: 2vw;
+    margin-bottom: 0px;
+}
+
+.item-discografia .fonte {
+    margin-top: 0.3vw;
+}
+
+.imagem-item-discografia {
+    width: 250px;
+    height: auto;
+}

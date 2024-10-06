@@ -103,7 +103,7 @@ li {
     height: 500px;
     overflow: hidden;
     margin: auto;
-    margin-top: 5vw;
+    margin-top: 4vw;
 }
 
 .crop-desc-daftpunk {
@@ -116,4 +116,14 @@ li {
     font-size: 1.3vw;
     margin-left: 5vw;
     margin-right: 5vw;
+}
+
+.fonte {
+    font-size: 1vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+.fonte a{
+    color: var(--primary-color);
 }

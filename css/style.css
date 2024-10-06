@@ -41,8 +41,6 @@ a:link, a:visited{
     color: var(--text-color);
 }
 
-
-
 .titulo {
     color: var(--primary-color);
     font-weight: 800;
@@ -112,4 +110,10 @@ li {
     width: 600px;
     height: auto;
     margin-left: -45px;
+}
+
+.descricao {
+    font-size: 1.3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }

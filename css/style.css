@@ -118,6 +118,12 @@ li {
     margin-left: -45px;
 }
 
+.crop-desc-porter {
+    width: 600px;
+    height: auto;
+    margin-left: -80px;
+}
+
 .descricao {
     font-size: 1.3vw;
     margin-left: 5vw;

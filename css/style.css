@@ -76,9 +76,12 @@ li {
     height: 300px;
     overflow: hidden;
     margin: auto;
+}
+
+.image-shadow-blur {
     border: 0;
-    border-radius: 3%;
-    filter: drop-shadow(0 0 15px var(--primary-color));
+    border-radius: 5%;
+    filter: drop-shadow(0 0 1vw var(--primary-color));
 }
 
 .crop-index-daftpunk {
@@ -95,4 +98,18 @@ li {
 .crop-index-femtanyl {
     width: 310px;
     height: auto;
+}
+
+.image-container-desc {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 5vw;
+}
+
+.crop-desc-daftpunk {
+    width: 600px;
+    height: auto;
+    margin-left: -45px;
 }

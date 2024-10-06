@@ -44,9 +44,15 @@ a:link, a:visited{
 .titulo {
     color: var(--primary-color);
     font-weight: 800;
-    font-size: 100px;
+    font-size: 5vw;
     margin-top: 3vw;
     margin-bottom: 0vw;
+}
+
+.titulo-2 {
+    color: var(--secondary-color);
+    font-weight: 800;
+    font-size: 3vw;
 }
 
 .subtitulo{

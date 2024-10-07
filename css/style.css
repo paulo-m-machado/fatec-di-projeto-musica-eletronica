@@ -33,6 +33,10 @@ header ul {
     grid-template-columns: repeat(2,1fr);
 }
 
+header nav ul li a:hover{
+    color: var(--secondary-color);
+}
+
 a {
     text-decoration: none;
 }
@@ -50,7 +54,7 @@ a:link, a:visited{
 }
 
 .titulo-2 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-weight: 800;
     font-size: 3vw;
 }
@@ -106,7 +110,7 @@ li {
 
 .image-container-desc {
     width: 500px;
-    height: 500px;
+    height: auto; 
     overflow: hidden;
     margin: auto;
     margin-top: 4vw;
@@ -124,6 +128,12 @@ li {
     margin-left: -80px;
 }
 
+.crop-desc-femt {
+    width: 500px;
+    height: 500px;
+    margin-bottom: -50px;
+}
+
 .descricao {
     font-size: 1.3vw;
     margin-left: 5vw;
@@ -138,6 +148,10 @@ li {
 
 .fonte a{
     color: var(--primary-color);
+}
+
+.fonte a:hover {
+    color: var(--secondary-color);
 }
 
 .lista-discografia-DP {
@@ -178,4 +192,12 @@ li {
 .imagem-musica-rec {
     width: 300px;
     height: auto;
+}
+
+a img:hover {
+    filter: drop-shadow(0 0 1.5vw var(--secondary-color));
+}
+
+.container-imagem-index:hover {
+    filter: drop-shadow(0 0 1.5vw var(--secondary-color));
 }
